@@ -30,7 +30,7 @@ mixer.music.set_volume(0.2)
 score = 0
 lost = 0
 
-life = 3
+life = 10
 
 class GameSprite(sprite.Sprite):
     def __init__(self, sprite_image, sprite_x, sprite_y, size_x, size_y, sprite_speed):
