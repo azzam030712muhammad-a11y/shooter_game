@@ -96,12 +96,12 @@ player = Player('spaceship3.png', win_width/2, win_height - 100, 80, 100, 15 )
 
 #Instance Enemy
 monsters = sprite.Group()
-for i in range(1, 6):
+for i in range(1, 7):
     monster = Enemy('ufo2.png', randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
     monsters.add(monster)
 
 asteroids = sprite.Group()
-for i in range(1, 3):
+for i in range(1, 4):
     asteroid = Asteroids('asteroid.png', randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
     asteroids.add(asteroid)
 
