@@ -176,7 +176,7 @@ while game:
         for m in monsters:
             m.kill()
 
-        time.delay(3000)
+        time.delay(4000)
 
         for i in range(1, 6):
             monster = Enemy('ufo2.png', randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
